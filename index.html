@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Audio & Sound</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Multimedia Audio & Sound</h1>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#player">Audio Player</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <h2>Experience the Magic of Sound</h2>
+    <p>Discover high-quality audio solutions for all your multimedia needs.</p>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Features</h2>
+    <div class="feature-item">
+      <h3>High-Definition Audio</h3>
+      <p>Crystal clear sound quality for immersive experiences.</p>
+    </div>
+    <div class="feature-item">
+      <h3>Multiple Formats Supported</h3>
+      <p>MP3, WAV, FLAC, and more.</p>
+    </div>
+    <div class="feature-item">
+      <h3>Interactive Sound Control</h3>
+      <p>Advanced controls for personalized listening.</p>
+    </div>
+  </section>
+
+  <section id="player" class="player">
+    <h2>Audio Player</h2>
+    <div class="audio-player">
+      <audio id="audio" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" controls></audio>
+      <div class="controls">
+        <button onclick="playAudio()">Play</button>
+        <button onclick="pauseAudio()">Pause</button>
+        <button onclick="stopAudio()">Stop</button>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
